@@ -1,0 +1,153 @@
+<!--
+  @description       : 
+  @author            : Adrian Flores
+  @group             : 
+  @last modified on  : 01-31-2023
+  @last modified by  : Anderson Morino
+  -->
+<!-- BEGINNING - Ticket #35471 - LWC HTML -->
+<template>
+  <lightning-card>
+    <div class="slds-var-m-around_large">
+      <div if:false={loading} class="slds-is-relative">
+        <div class="slds-grid slds-gutters slds-wrap">
+          <div class="slds-col slds-size_1-of-7">
+            <lightning-input
+              type="date"
+              name="departureDate"
+              label="Enter a departure date"
+              onchange={onSelectedDate}
+              value={selectedDate}
+            ></lightning-input>
+          </div>
+
+          <div class="slds-col slds-size_1-of-7">
+            <lightning-combobox
+              name="trainOptions"
+              label="Trains"
+              value={trainValue}
+              placeholder="Select a train"
+              options={trainOptions}
+              onchange={handleChange}
+            ></lightning-combobox>
+          </div>
+
+          <div class="slds-col slds-size_1-of-7">
+            <lightning-combobox
+              name="legsOptions"
+              label="Train legs"
+              value={legValue}
+              placeholder="Select a leg"
+              options={legOptions}
+              onchange={handleChange}
+            ></lightning-combobox>
+          </div>
+
+          <div class="slds-col slds-var-m-top_x-large slds-size_1-of-7">
+            <lightning-button
+              name="seatPassengerAction"
+              variant="brand"
+              disabled={disabledButton}
+              label="Seat passengers"
+              title="Seat passengers"
+              onclick={handleChange}
+              class="slds-var-m-left_x-small"
+            ></lightning-button>
+            <br />
+            <br />
+            <lightning-button
+              name="unseatPassengerAction"
+              variant="brand"
+              disabled={disabledButton}
+              label="Unseat passengers"
+              title="Unseat passengers"
+              onclick={handleChange}
+              class="slds-var-m-left_x-small"
+            ></lightning-button>
+          </div>
+
+          <div class="slds-col slds-size_1-of-7 slds-text-align_center">
+            <b>Railcar Legend</b>
+            <br />
+            <lightning-badge label="GL" class="GL"></lightning-badge>
+            <lightning-badge label="SL" class="SL"></lightning-badge>
+            <lightning-badge label="SL+" class="SL+"></lightning-badge>
+            <br />
+            <b>Direction</b>
+            <br />
+            <lightning-badge label="AB" class="AB"></lightning-badge>
+            <lightning-badge label="BA" class="BA"></lightning-badge>
+            <br />
+            <b>Seat Legend</b>
+            <br />
+            <lightning-badge label="Unoccupied" class="Unoccupied"></lightning-badge>
+            <lightning-badge label="Occupied" class="Occupied"></lightning-badge>
+            <lightning-badge label="Inactive" class="Inactive"></lightning-badge>
+          </div>
+
+          <template if:true={show}>
+            <div class="slds-text-align_center slds-col slds-size_5-of-7 slds-scrollable" style="height: 50rem; width: auto">
+              <template for:each={railcarData} for:item="railcar">
+                <div key={railcar.key} class="slds-card__body slds-card__body_inner">
+                  <lightning-card>
+                    <div class="slds-text-heading_medium slds-text-align_center"><b>Railcar:</b> {railcar.railcarId}</div>
+                    <br />
+                    <div class="slds-text-body_regular slds-text-align_center">
+                      <b>Service Class: </b>
+                      <lightning-badge if:true={railcar.serviceClass} label={railcar.serviceClass} class={railcar.serviceClass}></lightning-badge>
+                      <lightning-badge if:false={railcar.serviceClass} label={railcar.serviceClass} class={railcar.serviceClass}></lightning-badge> |
+                      <b> Direction: </b>
+                      <lightning-badge if:true={railcar.direction} label={railcar.direction} class={railcar.direction}></lightning-badge>
+                      <lightning-badge if:false={railcar.direction} label={railcar.direction} class={railcar.direction}></lightning-badge>
+                    </div>
+                    <br />
+                    <table class="slds-table slds-table_bordered slds-table_cell-buffer slds-var-m-bottom_large">
+                      <tbody>
+                        <template for:each={railcar.lines} for:item="line">
+                          <tr key={line.lineNumber}>
+                            <template for:each={line.values} for:item="val">
+                              <template if:true={val.inactive}>
+                                <td key={val.key}>
+                                  <lightning-badge if:true={line.lineNumber} label={val.seat} class="Inactive">{val.seat}</lightning-badge>
+                                </td>
+                              </template>
+                              <template if:false={val.inactive}>
+                                <template if:true={val.occupied}>
+                                  <td key={val.key}>
+                                    <template if:true={line.lineNumber}>
+                                      <a href={val.passengerURL} target="_blank" style="text-decoration: none">
+                                        <span class="slds-badge special">{val.seat}</span>
+                                      </a>
+                                    </template>
+                                    <lightning-badge if:false={line.lineNumber} label={val.seat}>{val.seat}</lightning-badge>
+                                  </td>
+                                </template>
+                                <template if:false={val.occupied}>
+                                  <td key={val.key}>
+                                    <lightning-badge if:true={line.lineNumber} label={val.seat}>{val.seat}</lightning-badge>
+                                    <lightning-badge if:false={line.lineNumber} label={val.seat}>{val.seat}</lightning-badge>
+                                  </td>
+                                </template>
+                              </template>
+                            </template>
+                          </tr>
+                        </template>
+                      </tbody>
+                    </table>
+                  </lightning-card>
+                </div>
+              </template>
+            </div>
+          </template>
+        </div>
+      </div>
+
+      <div if:true={loading} style="width: 80px; height: 80px">
+        <div class="slds-var-p-around_x-large">
+          <lightning-spinner alternative-text="Loading" size="large" variant="brand"></lightning-spinner>
+        </div>
+      </div>
+    </div>
+  </lightning-card>
+</template>
+<!-- END - Ticket #35471 -->

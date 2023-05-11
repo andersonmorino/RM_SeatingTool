@@ -1,0 +1,51 @@
+/* BEGINNING - Ticket #35471 - LWC CSS */
+.GL {
+  --slds-c-badge-color-background: gold;
+}
+
+.SL {
+  --slds-c-badge-color-background: silver;
+}
+
+.SL\00002b {
+  --slds-c-badge-color-background: silver;
+  --slds-c-badge-text-color: white;
+}
+
+.Occupied {
+  --slds-c-badge-color-background: yellow;
+}
+
+.Inactive {
+  --slds-c-badge-color-background: red;
+}
+
+.AB {
+  background-color: var(--sds-c-badge-color-background, #f3f3f3);
+}
+
+.BA {
+  background-color: var(--slds-c-badge-color-background, #747474);
+}
+
+.special {
+  --slds-c-badge-color-background: yellow;
+  --slds-c-badge-text-color: black;
+}
+
+a:link {
+  color:black;
+}
+
+a:visited {
+  color:black;
+}
+
+a:hover {
+  color:black;
+}
+
+a:active {
+  color:black;
+}
+/* END - Ticket #35471*/

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>NAME</columns>
+    <columns>Cannot_be_turned__c</columns>
+    <columns>Exit_Row__c</columns>
+    <columns>Inactive__c</columns>
+    <columns>Less_Desirable__c</columns>
+    <columns>Row_Number__c</columns>
+    <columns>Seat_Letter__c</columns>
+    <columns>Mobility_Approved__c</columns>
+    <columns>Seat_Ticket__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+</ListView>

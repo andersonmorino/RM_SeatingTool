@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Exit_Row__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>This field indicates if the seat is next to an exit row.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This field indicates if the seat is next to an exit row.</inlineHelpText>
+    <label>Exit Row</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

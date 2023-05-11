@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Glenwood Springs to Moab</label>
+    <protected>false</protected>
+    <values>
+        <field>ROS_Destination_Leg_Id__c</field>
+        <value xsi:type="xsd:string">0MB</value>
+    </values>
+    <values>
+        <field>ROS_Origin_Leg_Id__c</field>
+        <value xsi:type="xsd:string">0GS</value>
+    </values>
+</CustomMetadata>

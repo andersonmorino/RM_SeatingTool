@@ -1,0 +1,70 @@
+{
+    "route": "Jasper to Kamloops",
+    "managementLegId": "609-2022-05-26_JAS-KAM",
+    "legConstruct": [
+      {
+        "Rail_Car_Ordinal": "JA09",
+        "Rail_Car_Order": 5,
+        "Rail_Car_Is_Active": "Y",
+        "Rail_Car_Direction": "AB",
+        "Rail_Car": "2018"
+      },
+      {
+        "Rail_Car_Ordinal": "JA08",
+        "Rail_Car_Order": 7,
+        "Rail_Car_Is_Active": "Y",
+        "Rail_Car_Direction": "BA",
+        "Rail_Car": "9555"
+      },
+      {
+        "Rail_Car_Ordinal": "JA07",
+        "Rail_Car_Order": 8,
+        "Rail_Car_Is_Active": "Y",
+        "Rail_Car_Direction": "AB",
+        "Rail_Car": "9541"
+      },
+      {
+        "Rail_Car_Ordinal": "JA06",
+        "Rail_Car_Order": 9,
+        "Rail_Car_Is_Active": "Y",
+        "Rail_Car_Direction": "BA",
+        "Rail_Car": "9525"
+      },
+      {
+        "Rail_Car_Ordinal": "JA05",
+        "Rail_Car_Order": 14,
+        "Rail_Car_Is_Active": "Y",
+        "Rail_Car_Direction": "AB",
+        "Rail_Car": "9527"
+      },
+      {
+        "Rail_Car_Ordinal": "JA04",
+        "Rail_Car_Order": 15,
+        "Rail_Car_Is_Active": "Y",
+        "Rail_Car_Direction": "BA",
+        "Rail_Car": "9551"
+      },
+      {
+        "Rail_Car_Ordinal": "JA03",
+        "Rail_Car_Order": 16,
+        "Rail_Car_Is_Active": "Y",
+        "Rail_Car_Direction": "AB",
+        "Rail_Car": "9547"
+      },
+      {
+        "Rail_Car_Ordinal": "JA02",
+        "Rail_Car_Order": 17,
+        "Rail_Car_Is_Active": "Y",
+        "Rail_Car_Direction": "BA",
+        "Rail_Car": "2014"
+      },
+      {
+        "Rail_Car_Ordinal": "JA01",
+        "Rail_Car_Order": 18,
+        "Rail_Car_Is_Active": "Y",
+        "Rail_Car_Direction": "AB",
+        "Rail_Car": "2003"
+      }
+    ],
+    "departureDate": "2022-05-26"
+  }

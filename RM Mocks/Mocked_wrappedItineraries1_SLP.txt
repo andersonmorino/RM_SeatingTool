@@ -1,0 +1,1 @@
+{"route":"Denver to Glenwood Springs","managementLegId":"991-2022-05-01_DEN-GS","legConstruct":[{"Rail_Car_Ordinal":"CB02","Rail_Car_Order":6,"Rail_Car_Is_Active":"Y","Rail_Car_Direction":"BA","Rail_Car":"2015"},{"Rail_Car_Ordinal":"CB03","Rail_Car_Order":7,"Rail_Car_Is_Active":"Y","Rail_Car_Direction":"BA","Rail_Car":"2011"}],"departureDate":"2022-05-01"}

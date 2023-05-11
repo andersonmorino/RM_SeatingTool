@@ -1,0 +1,133 @@
+{
+    "route": "Kamloops to Lake Louise",
+    "managementLegId": "610-2022-07-05_KAM-LAK",
+    "legConstruct": [
+      {
+        "Rail_Car_Ordinal": "CB01",
+        "Rail_Car_Order": 7,
+        "Rail_Car_Is_Active": "Y",
+        "Rail_Car_Direction": "BA",
+        "Rail_Car": "9509"
+      },
+      {
+        "Rail_Car_Ordinal": "CB02",
+        "Rail_Car_Order": 8,
+        "Rail_Car_Is_Active": "Y",
+        "Rail_Car_Direction": "BA",
+        "Rail_Car": "9557"
+      },
+      {
+        "Rail_Car_Ordinal": "CB03",
+        "Rail_Car_Order": 9,
+        "Rail_Car_Is_Active": "Y",
+        "Rail_Car_Direction": "AB",
+        "Rail_Car": "9545"
+      },
+      {
+        "Rail_Car_Ordinal": "CB04",
+        "Rail_Car_Order": 10,
+        "Rail_Car_Is_Active": "Y",
+        "Rail_Car_Direction": "BA",
+        "Rail_Car": "9549"
+      },
+      {
+        "Rail_Car_Ordinal": "CB05",
+        "Rail_Car_Order": 11,
+        "Rail_Car_Is_Active": "Y",
+        "Rail_Car_Direction": "AB",
+        "Rail_Car": "9553"
+      },
+      {
+        "Rail_Car_Ordinal": "CB06",
+        "Rail_Car_Order": 12,
+        "Rail_Car_Is_Active": "Y",
+        "Rail_Car_Direction": "BA",
+        "Rail_Car": "2005"
+      },
+      {
+        "Rail_Car_Ordinal": "CB07",
+        "Rail_Car_Order": 13,
+        "Rail_Car_Is_Active": "Y",
+        "Rail_Car_Direction": "AB",
+        "Rail_Car": "2006"
+      },
+      {
+        "Rail_Car_Ordinal": "CB08",
+        "Rail_Car_Order": 15,
+        "Rail_Car_Is_Active": "Y",
+        "Rail_Car_Direction": "AB",
+        "Rail_Car": "2001"
+      },
+      {
+        "Rail_Car_Ordinal": "CB09",
+        "Rail_Car_Order": 16,
+        "Rail_Car_Is_Active": "Y",
+        "Rail_Car_Direction": "AB",
+        "Rail_Car": "2007"
+      },
+      {
+        "Rail_Car_Ordinal": "CB10",
+        "Rail_Car_Order": 17,
+        "Rail_Car_Is_Active": "Y",
+        "Rail_Car_Direction": "BA",
+        "Rail_Car": "2017"
+      },
+      {
+        "Rail_Car_Ordinal": "CB11",
+        "Rail_Car_Order": 18,
+        "Rail_Car_Is_Active": "Y",
+        "Rail_Car_Direction": "AB",
+        "Rail_Car": "2012"
+      },
+      {
+        "Rail_Car_Ordinal": "CB12",
+        "Rail_Car_Order": 19,
+        "Rail_Car_Is_Active": "Y",
+        "Rail_Car_Direction": "AB",
+        "Rail_Car": "2013"
+      },
+      {
+        "Rail_Car_Ordinal": "CB13",
+        "Rail_Car_Order": 20,
+        "Rail_Car_Is_Active": "Y",
+        "Rail_Car_Direction": "BA",
+        "Rail_Car": "9529"
+      },
+      {
+        "Rail_Car_Ordinal": "CB14",
+        "Rail_Car_Order": 21,
+        "Rail_Car_Is_Active": "Y",
+        "Rail_Car_Direction": "AB",
+        "Rail_Car": "9506"
+      },
+      {
+        "Rail_Car_Ordinal": "CB15",
+        "Rail_Car_Order": 22,
+        "Rail_Car_Is_Active": "Y",
+        "Rail_Car_Direction": "BA",
+        "Rail_Car": "9508"
+      },
+      {
+        "Rail_Car_Ordinal": "CB16",
+        "Rail_Car_Order": 23,
+        "Rail_Car_Is_Active": "Y",
+        "Rail_Car_Direction": "AB",
+        "Rail_Car": "9531"
+      },
+      {
+        "Rail_Car_Ordinal": "CB17",
+        "Rail_Car_Order": 24,
+        "Rail_Car_Is_Active": "Y",
+        "Rail_Car_Direction": "BA",
+        "Rail_Car": "9505"
+      },
+      {
+        "Rail_Car_Ordinal": "CB18",
+        "Rail_Car_Order": 25,
+        "Rail_Car_Is_Active": "Y",
+        "Rail_Car_Direction": "BA",
+        "Rail_Car": "9503"
+      }
+    ],
+    "departureDate": "2022-07-05"
+  }

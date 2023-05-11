@@ -1,0 +1,55 @@
+{
+  "attributes": {
+    "type": "KaptioTravel__PassengerItineraryUnitAssignment__c",
+    "url": "/services/data/v57.0/sobjects/KaptioTravel__PassengerItineraryUnitAssignment__c/a9I4R00000046SKUAY"
+  },
+  "Id": "a9I4R00000046SKUAY",
+  "KaptioTravel__Passenger__c": "a784R000000DDGlQAO",
+  "KaptioTravel__Passenger__r": {
+    "attributes": {
+      "type": "KaptioTravel__Passenger__c",
+      "url": "/services/data/v57.0/sobjects/KaptioTravel__Passenger__c/a784R000000DDGlQAO"
+    },
+    "passenger_full_name__c": "ED CONNORS",
+    "MobilityGeneral__c": null,
+    "Mobility_Transportation__c": null
+  },
+  "KaptioTravel__ItineraryItem__r": {
+    "attributes": {
+      "type": "KaptioTravel__Itinerary_Item__c",
+      "url": "/services/data/v57.0/sobjects/KaptioTravel__Itinerary_Item__c/a6w4R0000001p8KQAQ"
+    },
+    "KaptioTravel__ExternalItemName__c": "Lake Louise to Kamloops",
+    "KaptioTravel__Package__r": {
+      "attributes": {
+        "type": "KaptioTravel__Package__c",
+        "url": "/services/data/v57.0/sobjects/KaptioTravel__Package__c/a754R000000TcGLQA0"
+      },
+      "Name": "2022 Atomic Rail - FPW Banff to Vancouver"
+    },
+    "KaptioTravel__Itinerary__r": {
+      "attributes": {
+        "type": "KaptioTravel__Itinerary__c",
+        "url": "/services/data/v57.0/sobjects/KaptioTravel__Itinerary__c/a6x4R000000JtDqQAK"
+      },
+      "KaptioTravel__BookingNumber__c": "GPK1002071",
+      "LinkedItinerary__c": null,
+      "LinkedItinerary__r": null,
+      "Passengers_with_Mobility_Needs__c": 2,
+      "CircleJourney__c": false
+    },
+    "KaptioTravel__AllocatedPassengers__c": 41,
+    "KaptioTravel__Price_Category__r": {
+      "attributes": {
+        "type": "KaptioTravel__Price_Category__c",
+        "url": "/services/data/v57.0/sobjects/KaptioTravel__Price_Category__c/a7I0f000000kEhYEAU"
+      },
+      "Name": "GoldLeaf Adult"
+    },
+    "KaptioTravel__DateFrom__c": "2022-07-20"
+  },
+  "KaptioTravel__ItineraryItem__c": "a6w4R0000001p8KQAQ",
+  "GSS_Room_ID__c": "7",
+  "RailCarNumber__c": "9505",
+  "RailSeatNumber__c": "38"
+}
